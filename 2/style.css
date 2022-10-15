@@ -3,10 +3,12 @@ header {
     height: 100px;
     margin: 0;
     text-align: center;
-    
+    padding-bottom: 25px;
+    margin-bottom: 10px;
 }
 body, html {
     margin: 0;
+    background-color: antiquewhite;
 }
 h1 {
     margin: 0;
@@ -43,4 +45,30 @@ ul {
 a:hover {
     border: 1px solid #000;
 }
+.container {
+    margin: 0 15%;
+}
+
+img {
+    border-radius: 50%;
+    
+}
+
+.float-left {
+    float:left;
+    padding-right: 10px;
+}
+
+.float-right {
+    float: right;
+    padding-left: 10px;
+}
+
+section {
+    min-height: 350px;
+}
+
+
+
+
 
