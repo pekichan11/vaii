@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(58, 106, 236);
+    color: white;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+} 
+
+li {
+    display: inline;   
+    margin-right: 30px;
+    padding: 10px; 
+}
+
+html, body, header, h1 {
+    margin: 0;
+}
+.photo {
+    display: inline;
+    
+    
+}
+
+img {
+    border: 1px solid #000;
+    width: 30%;
+    height: auto;
+}
+
+img:hover {
+    opacity: .7;
+}
+.gallery {
+    margin: 10px 10%; 
+}
