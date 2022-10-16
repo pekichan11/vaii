@@ -22,7 +22,7 @@ li {
     
 }
 
-a {
+li a {
     text-decoration: none;
     color: black;
     padding: 15px;
@@ -42,7 +42,7 @@ ul {
     margin: 0;
 }
 
-a:hover {
+li a:hover {
     border: 1px solid #000;
 }
 .container {
@@ -50,7 +50,7 @@ a:hover {
 }
 
 img {
-    border-radius: 50%;
+    border: 1px solid black;
     
 }
 
@@ -65,5 +65,20 @@ img {
 }
 
 section {
-    min-height: 350px;
+    padding-bottom: 30px;
+    min-height: 250px;
+}
+
+footer {
+    background-color: rgb(105, 102, 102);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px
+}
+footer a {
+    color: black;
+}
+footer a:hover {
+    color: blue;
 }
