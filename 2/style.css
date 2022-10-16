@@ -82,3 +82,11 @@ footer a {
 footer a:hover {
     color: blue;
 }
+
+@media (max-width:600px) {
+    .float-left, .float-right, section h2 {
+        float:none;
+        text-align: center;
+    }
+     
+}
