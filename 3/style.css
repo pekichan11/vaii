@@ -59,6 +59,18 @@ footer li {
     color: white;
     list-style: none;
 }
+
+.ad img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 @media (max-width:600px) {
     .float-left ul {
         float:none;
