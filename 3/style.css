@@ -48,16 +48,20 @@ header a {
 footer {
     background-image: url("./img/footer_sushi.jpg");
     width: 100%;
-    height: 250px;
+    height: 400px;
 }
 
 .kontakt a {
     color: white;
     text-decoration: none;
 }
-footer li {
+footer a, footer h3 {
     color: white;
-    list-style: none;
+    text-decoration: none;
+}
+.kontakt {
+    margin:0 30%;
+    padding-top: 20px;
 }
 
 .ad img {
@@ -81,6 +85,16 @@ main {
     height: auto;
 }
 
+.kontakt{
+    position: relative;
+    padding-top: 40px;
+}
+.kontakt img {
+    left: 300px;
+    position: absolute;
+    top: 70px;
+}
+
 
 @media (max-width:600px) {
     .float-left ul {
@@ -90,5 +104,8 @@ main {
     h1 {
         text-align: center;
         width: 100%;
+    }
+    .kontakt img {
+        left: 200px;
     }
 }
