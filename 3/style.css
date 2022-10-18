@@ -71,6 +71,17 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.obrazky {
+    margin-top: 15px;
+}
+.obrazky img {
+    margin-left: 10%;
+    width: 35%;
+    height: auto;
+}
+
+
 @media (max-width:600px) {
     .float-left ul {
         float:none;
